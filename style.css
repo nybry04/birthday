@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: rgb(21,11,195);
+    background: linear-gradient(50deg, rgba(21,11,195,1) 0%, rgba(15,215,15,1) 100%);
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    font-family: Fira Sans,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.fc-white900 {
+    color: #212121;
+}
+
+.fix-back {
+    background: rgb(21,11,195);
+    background: linear-gradient(50deg, rgba(21,11,195,1) 0%, rgba(15,215,15,1) 100%);
+}
+
+.fs3 {
+    font-size: 3vh;
+}
+.fs2-5 {
+    font-size: 2.5vh;
+}
+
+.center-vh {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bg-white50 {
+    background-color: #FAFAFA;
+}
+
+.bg-white900 {
+    background-color: #212121;
+}
+
+.fc-white50 {
+    color: #FAFAFA!important;
+}
+
+.p10 {
+    padding: 10px
+}
+
+.br10 {
+    border-radius: 10px;
+}
+
+.m5 {
+    margin: 5px;
+}
+
+.shadow {
+    -webkit-box-shadow: -16px 16px 16px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -16px 16px 16px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: -16px 16px 16px 0px rgba(34, 60, 80, 0.2);
+}
